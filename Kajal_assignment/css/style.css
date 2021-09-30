@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wrapper {
+    width: 550px;
+    border: 2px solid #000;
+    /* padding: 1px; */
+}
+.main_wrrapper{
+    border: 1px solid #000;
+}
+
+.date_section{
+    border-top: 1px dashed #000;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.date {
+    background-color: #fff;
+    padding: 5px;
+    margin-top: -14px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    border-bottom: 2px solid #000;
+    padding: 5px;
+    align-items: center;
+}
+
+.user_profile {
+    font-size: 17px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.profile_image {
+    height: 50px;
+    width: 50px;
+    background-color:#2ba3b34a;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.user_profile {
+    display: flex;
+}
+
+
+
+.trans_debit {
+    width: 50%;
+    padding: 0 20px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.item_card{
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.ammount_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status {
+    color: #000000c4;
+    display: flex;
+    font-size: 16px;
+}
+.status .succes{
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+
+}
+img{
+    max-width: 100%;
+    
+}
+.ammount_detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_retail {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.date_time{
+    font-size: 12px;
+}
+.debit {
+    display: flex;
+    justify-content: end;
+}
+.date_time {
+    font-size: 12px;
+    text-align: end;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.credit {
+    width: 50%;
+    margin: 20px;
+}
+.credit .ammount_section{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.primary_btn{
+    outline: none;
+    border: 1px solid #000;
+    padding: 2px 25px;
+    font-size: 17px;
+    margin: 0 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button_action .primary_btn{
+    margin: 0 3px;
+}
+.arrow_right{
+    cursor: pointer;
+}
